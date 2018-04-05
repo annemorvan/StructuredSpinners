@@ -22,7 +22,7 @@ I. setup
 	Python is used with the following setup: "Python 2.7.12 :: Anaconda custom (64-bit)".
 	R is used for plotting the curves: R version 3.0.2 (2013-09-25)
 
-3) Dependencies
+	3) Dependencies
 
 	For PYTHON:
 
