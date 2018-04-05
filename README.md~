@@ -6,7 +6,7 @@ This file gives the recipe for reproducing the figures of the paper# 341:
 Please have in mind that this code could be optimized and that results could be
 different because of randomness.
 
-I. setup
+I] setup
 
 	1) Distribution name and version:
 	Distributor ID:	Ubuntu
@@ -35,7 +35,7 @@ I. setup
 	(For your information, the script example.py shows how to use FFHT from Python.)
 
 
-II. How to reproduce figure 2: Locality-Sensitive Hashing (LSH) ?
+II] How to reproduce figure 2: Locality-Sensitive Hashing (LSH) ?
 
 	~ more than 30min to compute
 
@@ -78,7 +78,7 @@ II. How to reproduce figure 2: Locality-Sensitive Hashing (LSH) ?
 	put in the paper.
 
 
-III. How to reproduce figure 3: Accuracy of random feature map kernel approximation for the G50C dataset?
+III] How to reproduce figure 3: Accuracy of random feature map kernel approximation for the G50C dataset?
 
 	The corresponding files for this experiment are:
 	G50C.mat (dataset)
@@ -129,7 +129,7 @@ row 13: ylim=c(0.01,0.14)
 row 26: abline(h=seq(0.01,0.14,by=0.01),col='darkgray',lty=2,lwd=1)
 
 
-IV. How to reproduce table 1: Speedups for Gaussian kernel approximation via structured spinners?
+IV] How to reproduce table 1: Speedups for Gaussian kernel approximation via structured spinners?
 
 	In this experiment, we use synthetic datasets with the following dimensions : 
 	2^9, 2^10, 2^11, 2^12, 2^13, 2^14 and 2^15 and we apply the kernel with a square matrix
@@ -152,7 +152,7 @@ IV. How to reproduce table 1: Speedups for Gaussian kernel approximation via str
 	r4 HGAUSSHD2HD1
 	r5 GTOEPLITZD2HD1
 
-V. How to reproduce table 2: Running time for the MLP, unstructured matrices vs structured spinners?
+V] How to reproduce table 2: Running time for the MLP, unstructured matrices vs structured spinners?
 
 	~ 1 min to compute
 
@@ -169,10 +169,10 @@ V. How to reproduce table 2: Running time for the MLP, unstructured matrices vs 
 	It will print list of times in second for dimensions from 2^4 to 2^12.
 
 
-VI. How to reproduce figure 4: Test error for MPL (top) and convolutional network (bottom)?
+VI] How to reproduce figure 4: Test error for MPL (top) and convolutional network (bottom)?
 TODO
 
-VII. How to reproduce figure 5: Accuracy of random feature map kernel approximation for the USPST dataset?
+VII] How to reproduce figure 5: Accuracy of random feature map kernel approximation for the USPST dataset?
 
 	The corresponding files for this experiment are:
 	USPST.mat (dataset)
@@ -190,7 +190,7 @@ VII. How to reproduce figure 5: Accuracy of random feature map kernel approximat
 At the end, run rows from 82 to 112 plot_kernels.R to produce gaussiankernel_USPST.pdf
 or rows from 120 to 150 to produce angularkernel_USPST.pdf
 
-VIII. How to reproduce figure 6: Numerical illustration of the convergence (top) and computational
+VIII] How to reproduce figure 6: Numerical illustration of the convergence (top) and computational
 complexity (bottom) of the Newton sketch algorithm with various structured spinners?
 TODO
 
